@@ -1,0 +1,262 @@
+[2025-10-04 23:11:16] [INFO    ] discord.client: logging in using static token
+[2025-10-04 23:11:18] [DEBUG   ] discord.http: GET https://discord.com/api/v10/users/@me with None has returned 200
+[2025-10-04 23:11:18] [DEBUG   ] discord.http: GET /users/@me has found its initial rate limit bucket hash (78bb8553d9352a5a2f89f9def401287a).
+[2025-10-04 23:11:18] [DEBUG   ] discord.http: GET https://discord.com/api/v10/users/@me has received {'id': '1424055125361561680', 'username': 'blackkkboy', 'avatar': None, 'discriminator': '1624', 'public_flags': 0, 'flags': 0, 'bot': True, 'banner': None, 'accent_color': None, 'global_name': None, 'avatar_decoration_data': None, 'collectibles': None, 'display_name_styles': None, 'banner_color': None, 'clan': None, 'primary_guild': None, 'mfa_enabled': False, 'locale': 'en-US', 'premium_type': 0, 'email': None, 'verified': True, 'bio': ''}
+[2025-10-04 23:11:18] [DEBUG   ] discord.http: GET https://discord.com/api/v10/oauth2/applications/@me with None has returned 200
+[2025-10-04 23:11:18] [DEBUG   ] discord.http: GET /oauth2/applications/@me has found its initial rate limit bucket hash (d28a133af187e91d71d96a223467ce49).
+[2025-10-04 23:11:18] [DEBUG   ] discord.http: GET https://discord.com/api/v10/oauth2/applications/@me has received {'id': '1424055125361561680', 'name': 'blackkkboy', 'icon': None, 'description': '', 'type': None, 'bot': {'id': '1424055125361561680', 'username': 'blackkkboy', 'avatar': None, 'discriminator': '1624', 'public_flags': 0, 'flags': 0, 'bot': True, 'banner': None, 'accent_color': None, 'global_name': None, 'avatar_decoration_data': None, 'collectibles': None, 'display_name_styles': None, 'banner_color': None, 'clan': None, 'primary_guild': None}, 'summary': '', 'is_monetized': False, 'is_verified': False, 'is_discoverable': False, 'bot_public': True, 'bot_require_code_grant': False, 'install_params': {'scopes': ['applications.commands'], 'permissions': '0'}, 'integration_types_config': {'0': {'oauth2_install_params': {'scopes': ['applications.commands'], 'permissions': '0'}}, '1': {'oauth2_install_params': {'scopes': ['applications.commands'], 'permissions': '0'}}}, 'verify_key': 'e42cccc1f8915a1acc7d64a3a9d4b04b17868864932f1e063a144b1d1304b4b4', 'flags': 557056, 'hook': True, 'storefront_available': False, 'redirect_uris': [], 'interactions_endpoint_url': None, 'role_connections_verification_url': None, 'owner': {'id': '1328623168142708820', 'username': 'ghgggg0199_73584', 'avatar': None, 'discriminator': '0', 'public_flags': 0, 'flags': 0, 'banner': None, 'accent_color': None, 'global_name': 'blackRacptor', 'avatar_decoration_data': None, 'collectibles': None, 'display_name_styles': None, 'banner_color': None, 'clan': None, 'primary_guild': None}, 'approximate_guild_count': 0, 'approximate_user_install_count': 0, 'approximate_user_authorization_count': 0, 'interactions_event_types': [], 'interactions_version': 1, 'explicit_content_filter': 0, 'rpc_application_state': 0, 'store_application_state': 1, 'verification_state': 1, 'integration_public': True, 'integration_require_code_grant': False, 'discoverability_state': 1, 'discovery_eligibility_flags': 224, 'monetization_state': 1, 'verification_eligibility_flags': 91036, 'monetization_eligibility_flags': 181988, 'team': None, 'internal_guild_restriction': 2, 'approved_consoles': [], 'pricing_localization_strategy': 'localized_price_sets'}
+[2025-10-04 23:11:19] [DEBUG   ] discord.gateway: Created websocket connected to wss://gateway.discord.gg/
+[2025-10-04 23:11:19] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 10, 'd': {'heartbeat_interval': 41250, '_trace': ['["gateway-prd-arm-us-east1-b-p9dd",{"micros":0.0}]']}}
+[2025-10-04 23:11:19] [DEBUG   ] discord.gateway: Shard ID None has sent the IDENTIFY payload.
+[2025-10-04 23:11:19] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:11:19] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'READY', 's': 1, 'op': 0, 'd': {'v': 10, 'user_settings': {}, 'user': {'verified': True, 'username': 'blackkkboy', 'primary_guild': None, 'mfa_enabled': False, 'id': '1424055125361561680', 'global_name': None, 'flags': 0, 'email': None, 'discriminator': '1624', 'clan': None, 'bot': True, 'avatar': None}, 'session_type': 'normal', 'session_id': '01d5c73eb3fe52177df711b717e643ec', 'resume_gateway_url': 'wss://gateway-us-east1-b.discord.gg', 'relationships': [], 'private_channels': [], 'presences': [], 'guilds': [{'unavailable': True, 'id': '1424085015079161930'}], 'guild_join_requests': [], 'geo_ordered_rtc_regions': ['india', 'dubai', 'singapore', 'saudi-arabia', 'hongkong'], 'game_relationships': [], 'auth': {}, 'application': {'id': '1424055125361561680', 'flags': 557056}, '_trace': ['["gateway-prd-arm-us-east1-b-p9dd",{"micros":190432,"calls":["id_created",{"micros":429,"calls":[]},"session_lookup_time",{"micros":1845,"calls":[]},"session_lookup_finished",{"micros":11,"calls":[]},"discord-sessions-prd-2-151",{"micros":187606,"calls":["start_session",{"micros":174063,"calls":["discord-api-rpc-5cdf8c7555-5kfz4",{"micros":69539,"calls":["get_user",{"micros":10513},"get_guilds",{"micros":4166},"send_scheduled_deletion_message",{"micros":19},"guild_join_requests",{"micros":166},"authorized_ip_coro",{"micros":10},"pending_payments",{"micros":41328},"apex_experiments",{"micros":274},"user_activities",{"micros":5},"played_application_ids",{"micros":3}]}]},"starting_guild_connect",{"micros":32,"calls":[]},"presence_started",{"micros":473,"calls":[]},"guilds_started",{"micros":78,"calls":[]},"lobbies_started",{"micros":1,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":12865,"calls":[]},"connect_finished",{"micros":12945,"calls":[]},"build_ready",{"micros":11,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}]']}}
+[2025-10-04 23:11:19] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-10-04 23:11:19] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 01d5c73eb3fe52177df711b717e643ec).
+[2025-10-04 23:11:19] [DEBUG   ] discord.client: Dispatching event connect
+[2025-10-04 23:11:19] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'GUILD_CREATE', 's': 2, 'op': 0, 'd': {'max_stage_video_channel_users': 50, 'premium_tier': 0, 'afk_channel_id': None, 'members': [{'user': {'username': 'blackkkboy', 'public_flags': 0, 'primary_guild': None, 'id': '1424055125361561680', 'global_name': None, 'display_name_styles': None, 'display_name': None, 'discriminator': '1624', 'collectibles': None, 'bot': True, 'avatar_decoration_data': None, 'avatar': None}, 'roles': ['1424085471369101345'], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2025-10-04T17:27:14.735321+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}], 'max_video_channel_users': 25, 'profile': None, 'voice_states': [], 'premium_features': None, 'application_id': None, 'guild_scheduled_events': [], 'application_command_counts': {}, 'verification_level': 0, 'id': '1424085015079161930', 'premium_progress_bar_enabled': False, 'presences': [], 'name': 'Bot test server', 'embedded_activities': [], 'emojis': [], 'rules_channel_id': None, 'stage_instances': [], 'features': [], 'banner': None, 'latest_onboarding_question_id': None, 'region': 'deprecated', 'threads': [], 'lazy': True, 'member_count': 2, 'max_members': 25000000, 'description': None, 'activity_instances': [], 'channels': [{'version': 1759598726064, 'type': 4, 'position': 0, 'permission_overwrites': [], 'name': 'Text Channels', 'id': '1424085016090116219', 'flags': 0}, {'version': 1759598726069, 'type': 4, 'position': 0, 'permission_overwrites': [], 'name': 'Voice Channels', 'id': '1424085016090116220', 'flags': 0}, {'version': 1759598726084, 'type': 0, 'topic': None, 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [], 'parent_id': '1424085016090116219', 'name': 'general', 'last_message_id': '1424085472530927688', 'id': '1424085016090116221', 'icon_emoji': {'name': '👋', 'id': None}, 'flags': 0}, {'version': 1759598726104, 'user_limit': 0, 'type': 2, 'rtc_region': None, 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [], 'parent_id': '1424085016090116220', 'name': 'General', 'last_message_id': None, 'id': '1424085016090116222', 'icon_emoji': {'name': '🎙', 'id': None}, 'flags': 0, 'bitrate': 64000}], 'home_header': None, 'stickers': [], 'roles': [{'version': 1759598726047, 'unicode_emoji': None, 'tags': {}, 'position': 0, 'permissions': '2248473465835073', 'name': '@everyone', 'mentionable': False, 'managed': False, 'id': '1424085015079161930', 'icon': None, 'hoist': False, 'flags': 0, 'colors': {'tertiary_color': None, 'secondary_color': None, 'primary_color': 0}, 'color': 0}, {'version': 1759598834686, 'unicode_emoji': None, 'tags': {'bot_id': '1424055125361561680'}, 'position': 1, 'permissions': '2815076453444672', 'name': 'blackkkboy', 'mentionable': False, 'managed': True, 'id': '1424085471369101345', 'icon': None, 'hoist': False, 'flags': 0, 'colors': {'tertiary_color': None, 'secondary_color': None, 'primary_color': 0}, 'color': 0}], 'default_message_notifications': 0, 'afk_timeout': 300, 'nsfw_level': 0, 'large': False, 'hub_type': None, 'explicit_content_filter': 0, 'system_channel_id': '1424085016090116221', 'system_channel_flags': 0, 'preferred_locale': 'en-US', 'owner_id': '1328623168142708820', 'incidents_data': None, 'soundboard_sounds': [], 'moderator_reporting': None, 'discovery_splash': None, 'premium_subscription_count': 0, 'vanity_url_code': None, 'icon': None, 'nsfw': False, 'safety_alerts_channel_id': None, 'version': 1759598726109, 'unavailable': False, 'splash': None, 'owner_configured_content_level': 0, 'mfa_level': 0, 'public_updates_channel_id': None, 'joined_at': '2025-10-04T17:27:14.735321+00:00', 'inventory_settings': None}}
+[2025-10-04 23:11:19] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-10-04 23:11:20] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'GUILD_MEMBERS_CHUNK', 's': 3, 'op': 0, 'd': {'nonce': '6fc7f9cddc4e0eb8b37a17e48f2cca59', 'members': [{'user': {'username': 'ghgggg0199_73584', 'public_flags': 0, 'primary_guild': None, 'id': '1328623168142708820', 'global_name': 'blackRacptor', 'display_name_styles': None, 'display_name': 'blackRacptor', 'discriminator': '0', 'collectibles': None, 'bot': False, 'avatar_decoration_data': None, 'avatar': None}, 'roles': [], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2025-10-04T17:25:25.930000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}, {'user': {'username': 'blackkkboy', 'public_flags': 0, 'primary_guild': None, 'id': '1424055125361561680', 'global_name': None, 'display_name_styles': None, 'display_name': None, 'discriminator': '1624', 'collectibles': None, 'bot': True, 'avatar_decoration_data': None, 'avatar': None}, 'roles': ['1424085471369101345'], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2025-10-04T17:27:14.735321+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}], 'guild_id': '1424085015079161930', 'chunk_index': 0, 'chunk_count': 1}}
+[2025-10-04 23:11:20] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-10-04 23:11:20] [DEBUG   ] discord.state: Processed a chunk for 2 members in guild ID 1424085015079161930.
+[2025-10-04 23:11:21] [DEBUG   ] discord.client: Dispatching event guild_available
+[2025-10-04 23:11:21] [DEBUG   ] discord.client: Dispatching event ready
+[2025-10-04 23:11:33] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'TYPING_START', 's': 4, 'op': 0, 'd': {'user_id': '1328623168142708820', 'timestamp': 1759599494, 'member': {'user': {'username': 'ghgggg0199_73584', 'public_flags': 0, 'primary_guild': None, 'id': '1328623168142708820', 'global_name': 'blackRacptor', 'display_name_styles': None, 'display_name': 'blackRacptor', 'discriminator': '0', 'collectibles': None, 'bot': False, 'avatar_decoration_data': None, 'avatar': None}, 'roles': [], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2025-10-04T17:25:25.930000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}, 'channel_id': '1424085016090116221', 'guild_id': '1424085015079161930'}}
+[2025-10-04 23:11:33] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-10-04 23:11:33] [DEBUG   ] discord.client: Dispatching event typing
+[2025-10-04 23:11:33] [DEBUG   ] discord.client: Dispatching event raw_typing
+[2025-10-04 23:11:35] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 5, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2025-10-04T17:38:16.443000+00:00', 'pinned': False, 'nonce': '1424089079686889472', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': [], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2025-10-04T17:25:25.930000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}, 'id': '1424088247327396078', 'flags': 0, 'embeds': [], 'edited_timestamp': None, 'content': '!hello', 'components': [], 'channel_type': 0, 'channel_id': '1424085016090116221', 'author': {'username': 'ghgggg0199_73584', 'public_flags': 0, 'primary_guild': None, 'id': '1328623168142708820', 'global_name': 'blackRacptor', 'display_name_styles': None, 'discriminator': '0', 'collectibles': None, 'clan': None, 'avatar_decoration_data': None, 'avatar': None}, 'attachments': [], 'guild_id': '1424085015079161930'}}
+[2025-10-04 23:11:35] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-10-04 23:11:35] [DEBUG   ] discord.client: Dispatching event message
+[2025-10-04 23:11:35] [DEBUG   ] discord.client: Dispatching event command
+[2025-10-04 23:11:36] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 6, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2025-10-04T17:38:17.209000+00:00', 'pinned': False, 'nonce': '14238928844557495033', 'mentions': [{'username': 'ghgggg0199_73584', 'public_flags': 0, 'primary_guild': None, 'member': {'roles': [], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2025-10-04T17:25:25.930000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}, 'id': '1328623168142708820', 'global_name': 'blackRacptor', 'display_name_styles': None, 'discriminator': '0', 'collectibles': None, 'clan': None, 'avatar_decoration_data': None, 'avatar': None}], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': ['1424085471369101345'], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2025-10-04T17:27:14.735321+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}, 'id': '1424088250540228749', 'flags': 0, 'embeds': [], 'edited_timestamp': None, 'content': 'Hello <@1328623168142708820>!', 'components': [], 'channel_type': 0, 'channel_id': '1424085016090116221', 'author': {'username': 'blackkkboy', 'public_flags': 0, 'primary_guild': None, 'id': '1424055125361561680', 'global_name': None, 'display_name_styles': None, 'discriminator': '1624', 'collectibles': None, 'clan': None, 'bot': True, 'avatar_decoration_data': None, 'avatar': None}, 'attachments': [], 'guild_id': '1424085015079161930'}}
+[2025-10-04 23:11:36] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-10-04 23:11:36] [DEBUG   ] discord.client: Dispatching event message
+[2025-10-04 23:11:36] [DEBUG   ] discord.http: POST https://discord.com/api/v10/channels/1424085016090116221/messages with {"content":"Hello <@1328623168142708820>!","components":[],"nonce":"14238928844557495033","enforce_nonce":true,"tts":false} has returned 200
+[2025-10-04 23:11:36] [DEBUG   ] discord.http: POST /channels/{channel_id}/messages has found its initial rate limit bucket hash (3df15bae86f6647dd4dfcbd5c6949480).
+[2025-10-04 23:11:36] [DEBUG   ] discord.http: POST https://discord.com/api/v10/channels/1424085016090116221/messages has received {'type': 0, 'content': 'Hello <@1328623168142708820>!', 'mentions': [{'id': '1328623168142708820', 'username': 'ghgggg0199_73584', 'avatar': None, 'discriminator': '0', 'public_flags': 0, 'flags': 0, 'banner': None, 'accent_color': None, 'global_name': 'blackRacptor', 'avatar_decoration_data': None, 'collectibles': None, 'display_name_styles': None, 'banner_color': None, 'clan': None, 'primary_guild': None}], 'mention_roles': [], 'attachments': [], 'embeds': [], 'timestamp': '2025-10-04T17:38:17.209000+00:00', 'edited_timestamp': None, 'flags': 0, 'components': [], 'id': '1424088250540228749', 'channel_id': '1424085016090116221', 'author': {'id': '1424055125361561680', 'username': 'blackkkboy', 'avatar': None, 'discriminator': '1624', 'public_flags': 0, 'flags': 0, 'bot': True, 'banner': None, 'accent_color': None, 'global_name': None, 'avatar_decoration_data': None, 'collectibles': None, 'display_name_styles': None, 'banner_color': None, 'clan': None, 'primary_guild': None}, 'pinned': False, 'mention_everyone': False, 'tts': False, 'nonce': '14238928844557495033'}
+[2025-10-04 23:11:36] [DEBUG   ] discord.client: Dispatching event command_completion
+[2025-10-04 23:12:00] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 6.
+[2025-10-04 23:12:00] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:12:41] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 6.
+[2025-10-04 23:12:42] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:13:23] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 6.
+[2025-10-04 23:13:23] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:14:04] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 6.
+[2025-10-04 23:14:04] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:14:45] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 6.
+[2025-10-04 23:14:45] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:15:23] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'TYPING_START', 's': 7, 'op': 0, 'd': {'user_id': '1328623168142708820', 'timestamp': 1759599724, 'member': {'user': {'username': 'ghgggg0199_73584', 'public_flags': 0, 'primary_guild': None, 'id': '1328623168142708820', 'global_name': 'blackRacptor', 'display_name_styles': None, 'display_name': 'blackRacptor', 'discriminator': '0', 'collectibles': None, 'bot': False, 'avatar_decoration_data': None, 'avatar': None}, 'roles': [], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2025-10-04T17:25:25.930000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}, 'channel_id': '1424085016090116221', 'guild_id': '1424085015079161930'}}
+[2025-10-04 23:15:23] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-10-04 23:15:23] [DEBUG   ] discord.client: Dispatching event typing
+[2025-10-04 23:15:23] [DEBUG   ] discord.client: Dispatching event raw_typing
+[2025-10-04 23:15:25] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 8, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2025-10-04T17:42:06.672000+00:00', 'pinned': False, 'nonce': '1424090044787851264', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': [], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2025-10-04T17:25:25.930000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}, 'id': '1424089212977942688', 'flags': 0, 'embeds': [], 'edited_timestamp': None, 'content': 'helloworld', 'components': [], 'channel_type': 0, 'channel_id': '1424085016090116221', 'author': {'username': 'ghgggg0199_73584', 'public_flags': 0, 'primary_guild': None, 'id': '1328623168142708820', 'global_name': 'blackRacptor', 'display_name_styles': None, 'discriminator': '0', 'collectibles': None, 'clan': None, 'avatar_decoration_data': None, 'avatar': None}, 'attachments': [], 'guild_id': '1424085015079161930'}}
+[2025-10-04 23:15:25] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-10-04 23:15:25] [DEBUG   ] discord.client: Dispatching event message
+[2025-10-04 23:15:26] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-10-04 23:15:27] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:15:49] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'TYPING_START', 's': 9, 'op': 0, 'd': {'user_id': '1328623168142708820', 'timestamp': 1759599751, 'member': {'user': {'username': 'ghgggg0199_73584', 'public_flags': 0, 'primary_guild': None, 'id': '1328623168142708820', 'global_name': 'blackRacptor', 'display_name_styles': None, 'display_name': 'blackRacptor', 'discriminator': '0', 'collectibles': None, 'bot': False, 'avatar_decoration_data': None, 'avatar': None}, 'roles': [], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2025-10-04T17:25:25.930000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}, 'channel_id': '1424085016090116221', 'guild_id': '1424085015079161930'}}
+[2025-10-04 23:15:49] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-10-04 23:15:49] [DEBUG   ] discord.client: Dispatching event typing
+[2025-10-04 23:15:49] [DEBUG   ] discord.client: Dispatching event raw_typing
+[2025-10-04 23:15:51] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 10, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2025-10-04T17:42:32.833000+00:00', 'pinned': False, 'nonce': '1424090154917691392', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': [], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2025-10-04T17:25:25.930000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}, 'id': '1424089322704994355', 'flags': 0, 'embeds': [], 'edited_timestamp': None, 'content': 'shit', 'components': [], 'channel_type': 0, 'channel_id': '1424085016090116221', 'author': {'username': 'ghgggg0199_73584', 'public_flags': 0, 'primary_guild': None, 'id': '1328623168142708820', 'global_name': 'blackRacptor', 'display_name_styles': None, 'discriminator': '0', 'collectibles': None, 'clan': None, 'avatar_decoration_data': None, 'avatar': None}, 'attachments': [], 'guild_id': '1424085015079161930'}}
+[2025-10-04 23:15:51] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-10-04 23:15:51] [DEBUG   ] discord.client: Dispatching event message
+[2025-10-04 23:15:52] [DEBUG   ] discord.http: DELETE https://discord.com/api/v10/channels/1424085016090116221/messages/1424089322704994355 with None has returned 204
+[2025-10-04 23:15:52] [DEBUG   ] discord.http: DELETE /channels/{channel_id}/messages/{message_id} has found its initial rate limit bucket hash (3df15bae86f6647dd4dfcbd5c6949480).
+[2025-10-04 23:15:52] [DEBUG   ] discord.http: DELETE https://discord.com/api/v10/channels/1424085016090116221/messages/1424089322704994355 has received 
+[2025-10-04 23:15:52] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_DELETE', 's': 11, 'op': 0, 'd': {'id': '1424089322704994355', 'channel_id': '1424085016090116221', 'guild_id': '1424085015079161930'}}
+[2025-10-04 23:15:52] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-10-04 23:15:52] [DEBUG   ] discord.client: Dispatching event raw_message_delete
+[2025-10-04 23:15:52] [DEBUG   ] discord.client: Dispatching event message_delete
+[2025-10-04 23:15:53] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 12, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2025-10-04T17:42:34.418000+00:00', 'pinned': False, 'nonce': '17600813983064741914', 'mentions': [{'username': 'ghgggg0199_73584', 'public_flags': 0, 'primary_guild': None, 'member': {'roles': [], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2025-10-04T17:25:25.930000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}, 'id': '1328623168142708820', 'global_name': 'blackRacptor', 'display_name_styles': None, 'discriminator': '0', 'collectibles': None, 'clan': None, 'avatar_decoration_data': None, 'avatar': None}], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': ['1424085471369101345'], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2025-10-04T17:27:14.735321+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}, 'id': '1424089329352966296', 'flags': 0, 'embeds': [], 'edited_timestamp': None, 'content': '<@1328623168142708820> - dont use that word!', 'components': [], 'channel_type': 0, 'channel_id': '1424085016090116221', 'author': {'username': 'blackkkboy', 'public_flags': 0, 'primary_guild': None, 'id': '1424055125361561680', 'global_name': None, 'display_name_styles': None, 'discriminator': '1624', 'collectibles': None, 'clan': None, 'bot': True, 'avatar_decoration_data': None, 'avatar': None}, 'attachments': [], 'guild_id': '1424085015079161930'}}
+[2025-10-04 23:15:53] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-10-04 23:15:53] [DEBUG   ] discord.client: Dispatching event message
+[2025-10-04 23:15:53] [DEBUG   ] discord.http: POST https://discord.com/api/v10/channels/1424085016090116221/messages with {"content":"<@1328623168142708820> - dont use that word!","components":[],"nonce":"17600813983064741914","enforce_nonce":true,"tts":false} has returned 200
+[2025-10-04 23:15:53] [DEBUG   ] discord.http: POST https://discord.com/api/v10/channels/1424085016090116221/messages has received {'type': 0, 'content': '<@1328623168142708820> - dont use that word!', 'mentions': [{'id': '1328623168142708820', 'username': 'ghgggg0199_73584', 'avatar': None, 'discriminator': '0', 'public_flags': 0, 'flags': 0, 'banner': None, 'accent_color': None, 'global_name': 'blackRacptor', 'avatar_decoration_data': None, 'collectibles': None, 'display_name_styles': None, 'banner_color': None, 'clan': None, 'primary_guild': None}], 'mention_roles': [], 'attachments': [], 'embeds': [], 'timestamp': '2025-10-04T17:42:34.418000+00:00', 'edited_timestamp': None, 'flags': 0, 'components': [], 'id': '1424089329352966296', 'channel_id': '1424085016090116221', 'author': {'id': '1424055125361561680', 'username': 'blackkkboy', 'avatar': None, 'discriminator': '1624', 'public_flags': 0, 'flags': 0, 'bot': True, 'banner': None, 'accent_color': None, 'global_name': None, 'avatar_decoration_data': None, 'collectibles': None, 'display_name_styles': None, 'banner_color': None, 'clan': None, 'primary_guild': None}, 'pinned': False, 'mention_everyone': False, 'tts': False, 'nonce': '17600813983064741914'}
+[2025-10-04 23:15:58] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 13, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2025-10-04T17:42:39.526000+00:00', 'pinned': False, 'nonce': '1424090182931447808', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': [], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2025-10-04T17:25:25.930000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}, 'id': '1424089350777606185', 'flags': 0, 'embeds': [], 'edited_timestamp': None, 'content': 'fuck', 'components': [], 'channel_type': 0, 'channel_id': '1424085016090116221', 'author': {'username': 'ghgggg0199_73584', 'public_flags': 0, 'primary_guild': None, 'id': '1328623168142708820', 'global_name': 'blackRacptor', 'display_name_styles': None, 'discriminator': '0', 'collectibles': None, 'clan': None, 'avatar_decoration_data': None, 'avatar': None}, 'attachments': [], 'guild_id': '1424085015079161930'}}
+[2025-10-04 23:15:58] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-10-04 23:15:58] [DEBUG   ] discord.client: Dispatching event message
+[2025-10-04 23:16:08] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 13.
+[2025-10-04 23:16:08] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'TYPING_START', 's': 14, 'op': 0, 'd': {'user_id': '1328623168142708820', 'timestamp': 1759599769, 'member': {'user': {'username': 'ghgggg0199_73584', 'public_flags': 0, 'primary_guild': None, 'id': '1328623168142708820', 'global_name': 'blackRacptor', 'display_name_styles': None, 'display_name': 'blackRacptor', 'discriminator': '0', 'collectibles': None, 'bot': False, 'avatar_decoration_data': None, 'avatar': None}, 'roles': [], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2025-10-04T17:25:25.930000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}, 'channel_id': '1424085016090116221', 'guild_id': '1424085015079161930'}}
+[2025-10-04 23:16:08] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-10-04 23:16:08] [DEBUG   ] discord.client: Dispatching event typing
+[2025-10-04 23:16:08] [DEBUG   ] discord.client: Dispatching event raw_typing
+[2025-10-04 23:16:08] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:16:09] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 15, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2025-10-04T17:42:50.695000+00:00', 'pinned': False, 'nonce': '1424090229538553856', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': [], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2025-10-04T17:25:25.930000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}, 'id': '1424089397623787560', 'flags': 0, 'embeds': [], 'edited_timestamp': None, 'content': '!hyy', 'components': [], 'channel_type': 0, 'channel_id': '1424085016090116221', 'author': {'username': 'ghgggg0199_73584', 'public_flags': 0, 'primary_guild': None, 'id': '1328623168142708820', 'global_name': 'blackRacptor', 'display_name_styles': None, 'discriminator': '0', 'collectibles': None, 'clan': None, 'avatar_decoration_data': None, 'avatar': None}, 'attachments': [], 'guild_id': '1424085015079161930'}}
+[2025-10-04 23:16:09] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-10-04 23:16:09] [DEBUG   ] discord.client: Dispatching event message
+[2025-10-04 23:16:09] [DEBUG   ] discord.client: Dispatching event command_error
+[2025-10-04 23:16:09] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "hyy" is not found
+[2025-10-04 23:16:49] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 15.
+[2025-10-04 23:16:49] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:17:30] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 15.
+[2025-10-04 23:17:30] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:18:11] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 15.
+[2025-10-04 23:18:12] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:18:53] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 15.
+[2025-10-04 23:18:53] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:19:34] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 15.
+[2025-10-04 23:19:34] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:20:15] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 15.
+[2025-10-04 23:20:16] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:20:56] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 15.
+[2025-10-04 23:20:57] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:21:38] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 15.
+[2025-10-04 23:21:38] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:22:19] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 15.
+[2025-10-04 23:22:19] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:23:00] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 15.
+[2025-10-04 23:23:01] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:23:41] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 15.
+[2025-10-04 23:23:42] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:24:23] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 15.
+[2025-10-04 23:24:32] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 1, 'd': None}
+[2025-10-04 23:24:37] [DEBUG   ] discord.gateway: Received WSMessage(type=<WSMsgType.CLOSE: 8>, data=1000, extra='')
+[2025-10-04 23:24:37] [DEBUG   ] discord.gateway: Websocket closed with 1000, attempting a reconnect.
+[2025-10-04 23:24:37] [DEBUG   ] discord.client: Got a request to RESUME the websocket.
+[2025-10-04 23:24:37] [DEBUG   ] discord.client: Dispatching event disconnect
+[2025-10-04 23:24:48] [DEBUG   ] discord.client: Dispatching event disconnect
+[2025-10-04 23:24:48] [ERROR   ] discord.client: Attempting a reconnect in 1.74s
+Traceback (most recent call last):
+  File "C:\Users\gksha\OneDrive\Desktop\Discord Bot\.venv\Lib\site-packages\aiohttp\connector.py", line 1532, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gksha\OneDrive\Desktop\Discord Bot\.venv\Lib\site-packages\aiohttp\connector.py", line 1148, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gksha\OneDrive\Desktop\Discord Bot\.venv\Lib\site-packages\aiohttp\connector.py", line 1179, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gksha\OneDrive\Desktop\Discord Bot\.venv\Lib\site-packages\aiohttp\resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\gksha\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 935, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gksha\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\gksha\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 975, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gksha\OneDrive\Desktop\Discord Bot\.venv\Lib\site-packages\discord\client.py", line 724, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gksha\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\gksha\OneDrive\Desktop\Discord Bot\.venv\Lib\site-packages\discord\gateway.py", line 383, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gksha\OneDrive\Desktop\Discord Bot\.venv\Lib\site-packages\discord\http.py", line 566, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gksha\OneDrive\Desktop\Discord Bot\.venv\Lib\site-packages\aiohttp\client.py", line 1067, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\gksha\OneDrive\Desktop\Discord Bot\.venv\Lib\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gksha\OneDrive\Desktop\Discord Bot\.venv\Lib\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\gksha\OneDrive\Desktop\Discord Bot\.venv\Lib\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gksha\OneDrive\Desktop\Discord Bot\.venv\Lib\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gksha\OneDrive\Desktop\Discord Bot\.venv\Lib\site-packages\aiohttp\connector.py", line 1538, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [getaddrinfo failed]
+[2025-10-04 23:25:04] [DEBUG   ] discord.gateway: Created websocket connected to wss://gateway-us-east1-b.discord.gg
+[2025-10-04 23:25:04] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 10, 'd': {'heartbeat_interval': 41250, '_trace': ['["gateway-prd-arm-us-east1-b-rgpb",{"micros":0.0}]']}}
+[2025-10-04 23:25:04] [DEBUG   ] discord.gateway: Shard ID None has sent the RESUME payload.
+[2025-10-04 23:25:10] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:25:10] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'RESUMED', 's': 16, 'op': 0, 'd': {'_trace': ['["gateway-prd-arm-us-east1-b-rgpb",{"micros":619,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":335,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-2-151",{"micros":15}]}]']}}
+[2025-10-04 23:25:10] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-10-04 23:25:10] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 01d5c73eb3fe52177df711b717e643ec.
+[2025-10-04 23:25:10] [DEBUG   ] discord.client: Dispatching event resumed
+[2025-10-04 23:25:45] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:25:45] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:26:26] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:26:26] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:27:07] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:27:08] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:27:49] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:27:49] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:28:30] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:28:30] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:29:11] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:29:11] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:29:52] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:29:53] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:30:34] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:30:34] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:31:15] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:31:15] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:31:56] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:31:56] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:32:37] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:32:38] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:33:19] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:33:19] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:34:00] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:34:00] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:34:41] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:34:41] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:35:22] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:35:23] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:36:04] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:36:04] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:36:45] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:36:45] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:37:26] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:37:26] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:38:07] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:38:08] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:38:49] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:38:49] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:39:30] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:39:30] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:40:11] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:40:12] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:40:52] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:40:53] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:41:34] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:41:34] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:42:15] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:42:15] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:42:56] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:42:57] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:43:38] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:43:38] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:44:19] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:44:19] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:45:00] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:45:00] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:45:41] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:45:42] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:46:23] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:46:23] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:47:04] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:47:04] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-10-04 23:47:45] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 16.
+[2025-10-04 23:47:45] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
